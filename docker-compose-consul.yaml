@@ -1,0 +1,7 @@
+version: '3'
+services:
+  dev-consul: 
+    image: consul:latest
+    restart: 'always'
+    ports:
+       - "8500:8500"  
